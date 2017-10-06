@@ -4,12 +4,15 @@ A System stress tester.
 
 ## Description
 
-This is a very small program to stress you machine. You can specify the number
+This is a very small program to stress you machine.
+You can create forks, busy forks occupying a CPU and allocate as much memory as
+you want.
 
 ## Installation
 
 To compile simply run `make` and you will get the binary `bambam` you can run.
-You can also install this binary by running `make install`, but in most cases you do not have any need to do this.
+You can also install this binary by running `make install`, but in most cases
+you do not have any need to do this.
 
 ## Usage
 
