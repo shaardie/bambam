@@ -22,9 +22,9 @@ you do not have any need to do this.
 
     -- Options ----
     	-h              -- Show this help
-	    -t [time]       -- Runtime in seconds (default: 10)
+    	-t [time]       -- Runtime in seconds (default: 10)
     	-m [memory]     -- Memory to use in Megabytes (default: 0)
-	    -f [forks]      -- Forks to start (default: 0)
+     	-f [forks]      -- Forks to start (default: 0)
     	-b [busy forks] -- Busy Forks to start (default: 0)
 
     -- Example ----
