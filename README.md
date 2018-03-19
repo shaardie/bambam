@@ -4,7 +4,7 @@ A System stress tester.
 
 ## Description
 
-This is a very small program to stress you machine.
+This is a very small program to stress your machine.
 You can create forks, busy forks occupying a CPU and allocate as much memory as
 you want.
 
