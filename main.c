@@ -73,13 +73,13 @@ int main(int argc, char **argv) {
                         memory = (unsigned int)(atoi(optarg));
                         break;
                 case 'b':
-                        busy_forks = (unsigned int)(atoi(optarg));
+                        busy_forks = (unsigned int)(abs(atoi(optarg)));
                         break;
                 case 't':
                         run_time = (unsigned int)(atoi(optarg));
                         break;
                 case 'f':
-                        forks = (unsigned int)(atoi(optarg));
+                        forks = (unsigned int)(abs(atoi(optarg)));
                         break;
                 case 'h':
                         usage(*argv);
